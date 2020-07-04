@@ -1,3 +1,6 @@
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";  
+}
 .nav_bg {
     background-color: #38404e;
 }
@@ -73,8 +76,55 @@ h2 {
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
 }
 
+.image {
+    width: 40% ;
+}
+
+.text_edit {
+    font-size: 20px;
+    color: black;
+}
+
+.benefit_title {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.benefit_details {
+    font-size: 22px;
+    color: black;
+    font-weight: 500;
+}
+
+.about_modify {
+    color: #2ddbac; 
+    font-size: 2rem;
+}
+
+.bari_logo {
+    color: #314464;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 0;
+}
+
+.about_text {
+    font-size: 20px;
+    color: black;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+.img_fit  {
+    object-fit: scale-down;
+}
 @media screen and (max-width: 768px) {
     .logo_link div {
         padding-left: 0 !important;
+    }
+    .about_text {
+        text-align: center;
     }
 }
