@@ -1,38 +1,80 @@
-.App {
-  text-align: center;
+.nav_bg {
+    background-color: #38404e;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.navbar-brand {
+    padding:0px 0px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.common_color {
+    color: #fff;
+}
+.logo_link:hover {
+    text-decoration: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav_logo {
+    color: #fff;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+small {
+    font-size: 68%;
+}
+
+.koi {
+    color: #2ddbac;
+    font-family: Roboto,sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+.carousel-control-prev-icon {
+    background-image: none;
+}
+
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-indicators li {
+    width: 17px;
+    height: 15px;
+    border-radius: 100%;
+}
+
+.common_colorTwo {
+    color: #2ddbac;
+}
+
+.carousel-caption {
+    right: 6%;
+    margin-bottom: 12rem;
+    margin-left: 8.25rem;
+}
+
+h2 {
+    font-weight: bold;
+    letter-spacing: 0;
+    line-height: 2.25rem;
+    padding-left: 43px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+@media screen and (max-width: 768px) {
+    .logo_link div {
+        padding-left: 0 !important;
+    }
 }
