@@ -117,9 +117,33 @@ h2 {
     font-weight: 400;
 }
 
-.img_fit  {
-    object-fit: scale-down;
+h6 {
+    color: #2ddbac;
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0;
 }
+
+.icon_modify {
+    font-size: 30px;
+}
+
+.mb-0 > a {
+    display: block;
+    /* position: relative; */
+  }
+  .mb-0 > a:after {
+    content: "\f078"; 
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+  }
+  .mb-0 > a[aria-expanded="true"]:after {
+    content: "\f077";
+  }
+
+  
+
 @media screen and (max-width: 768px) {
     .logo_link div {
         padding-left: 0 !important;

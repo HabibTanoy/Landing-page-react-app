@@ -5,12 +5,14 @@ import Program from './program/Program';
 import Benefits from './benefits/benefits';
 import About from './about/about';
 import Product from './products/product';
+import Faq from './faq/faq';
 
 class Index extends Component {
     state = { 
         program:'the program',
         benefits:'benefits',
-        product:'our products'
+        product:'our products',
+        faq:'frequently asked questions (faqs)'
      }
     render() { 
         return ( 
@@ -23,6 +25,7 @@ class Index extends Component {
                 <Benefits title={this.state.benefits}/>
                 <About />
                 <Product title={this.state.product}/>
+                <Faq title={this.state.faq}/>
             </div>
          );
     }
