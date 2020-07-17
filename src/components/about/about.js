@@ -13,8 +13,8 @@ class About extends Component {
      }
     render() { 
         return ( 
-            <div>
-                <div className="text-center mb-5">
+            <div id="about" className="my-5 py-5">
+                <div className="text-center mb-5 mt-3">
                   <div class="d-inline">
                      <span class="font-weight-bold about_modify">ABOUT</span>
                   </div>

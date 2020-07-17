@@ -32,7 +32,7 @@ class Benefits extends Component {
     }
     render() { 
         return ( 
-            <div>
+            <div className="mt-5 pt-5">
                 <Title title={this.props.title} />
                 <div className="benefit_title">
                 <BenefitSection title={this.state.benefit_title.tier}  textOne={this.state.benefit_title.criteria} textTwo={this.state.benefit_title.benefits}/>

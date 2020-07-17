@@ -17,9 +17,9 @@ class Program extends Component {
      }
     render() { 
         return ( 
-            <div>
+            <div className="my-5 py-5">
             <Title title={this.props.title}/>
-            <Container>
+            <Container className="mb-5 pb-5">
                 <Row>
                     <Col md={3} className="text-center">
                         <ProgramSection image={this.state.smsImg} text={this.state.smsText} />
